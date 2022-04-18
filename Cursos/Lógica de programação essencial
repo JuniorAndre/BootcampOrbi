@@ -1,0 +1,66 @@
+Lógica de programação essencial 
+
+Lógica - Raciocínio coerente, pensar de forma correta ou lógica.
+
+Lógica de programação - Ligar o conceito da lógica a programação de computadores, buscando melhores soluções para resolver determinados problemas.
+
+Abstração - Habilidade de focar nos aspectos mais importantes e ignorar os detalhes que menos importam.
+
+Algoritmo - Sequência de pessos para resolução de um problema.
+
+Pseudocódigo - Forma genérica de escrever um algoritmo, normalmente utilizando a linguagem nativa deixando simples o processo de aprendizado de 
+pessoas leigas na área da programação.
+
+Portugol - Uma pseudolinguagem que permite desenvolver algoritmos estruturados em português de forma simples, e por isso, faz pensar no problema e não no 
+equipamento que irá executar o algoritmo.
+
+Fluxograma - Ferramenta para representar um algoritmo de forma esquemática, por meio de gráficos, seguindo um fluxo de dados.
+
+Variáveis - Uma variável é capaz de guardar um valor que pode ser alterado durante a execução do algoritmo.
+
+Constantes - A constante guarda um valor que não se altera durante a execução do algoritmo.
+
+Expressões aritméticas - Utilizam operadores e funções aritméticas que envolve constantes e variáveis.
+
+Expressões literais - Utilizam constantes e/ou variáveis que são atribuídos ou resulta em valores literais.
+
+Expressões relacionais - Compostas por outras expressões ou variáveis com operadores relacionais, ou seja, comparativos. Retornam valores lógicos
+(verdadeiro ou falso).
+
+Concatenação - Operação que une o conteúdo de duas strings ou variáveis, juntando-as.
+
+Tomadas de decisão - Estrutura de decisão a partir de uma condição imposta que pode ocorrer durante a execução do algoritmo. 
+
+Estrutura de repetição - Permite executar mais de uma vez um comando ou uma estrutura de comandos de acordo com um contador ou com uma condição a
+ser atendida.
+
+Linguagem de programação - Uma linguagem que descreve um conjunto de instruções e regras para gerar softwares, que pode ser desenvolvido para 
+computador, dispositivos móveis ou qualquer equipamento que permita a execução. Existem tipos diferentes como:
+
+- Alto nível: São as linguagens que se aproximam da linguagem humana e se distanciam da linguagem de máquina.
+
+- Baixo nível: São as que se aproximam da linguagem de máquina, e é preciso ter conhecimento direto da arquitetura do computador para fazer algo.
+
+Também podem ser compiladas ou interpretadas:
+
+- Compiladas: O código fonte é traduzido por meio de um processo chamado compilação e executado pelo sistema operacional ou pelo processador.
+
+- Interpretadas: O código fonte é executado por um programa de computador chamado interpretador e depois executado pelo sistema operacional ou
+processador.
+
+
+No Portugal é utilizado as palavras reservadas:
+
+- Se: Para uma condição a ser testada entre parênteses e as instruções que devem ser executadas caso a condição seja verdadeira.
+- Senao: Para as instruções da condição caso a condição seja falsa.
+- Escolha/Caso: Similar ao se e senão porém cria uma diversidade de opções o que torna mais complexo e com mais posibilidades de desvios de condições.
+Não é possível utilizar operadores lógicos, ele apenas trabalha com valores definidos.
+- Pare: Utilizado no escolha para parar a execução do algoritmo quando executado a opção escolhida.
+- Caso contrario: Quando nenhuma opção do Escolha for atendida é executado as instruções que estivem no caso contrario.
+- Faca: Executa repetidamente as instruções dentro das chaves até não ser mais atendido uma condição dentro do parênteses no enquanto.
+
+
+Matriz - Uma coleção de variáveis do mesmo tipo, que é acessado pelo mesmo nome com o uso de índices para cada variável.
+
+Vetor - É o mesmo que uma matriz porém com uma dimensão apenas.
+
