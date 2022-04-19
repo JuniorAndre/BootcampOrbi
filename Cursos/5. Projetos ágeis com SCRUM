@@ -1,0 +1,87 @@
+Projetos ágeis com SCRUM
+
+Gestão de projetos tradicional - Apens permite que o projeto avance quando a fase atual está inteiramente completa.
+O escopo é definido na fase inicial.
+Projeto controlado por fases e marcos.
+O cliente só poderá vê o projeto em funcionamento na fase final.
+Resistência a mudanças.
+
+Gestão de projetos ágil - Software construído em partes e cada parte é executado por ciclos.
+Escopo é definido ao longo do projeto.
+O projeto é controlado pelas funcionalidades entregues.
+Cliente poderá vê parte do software funcionando ainda na parte inicial do projeto.
+Com mudanças constantes de acordo com o feedback.
+
+
+Ser ágil é:
+- Rapidez (mudança) e desembaraço 
+- Fazer coisas complexas de forma simples
+- Equipe comprometida com os objetivos 
+- Maior valor para o cliente
+- Ter capacidade de responder rapidamente a mudanças
+
+
+Pilares do SCRUM:
+- Transparência 
+- Adaptação
+- Inspeção
+
+
+Papéis e responsabilidades no SCRUM:
+
+- Product Owner(PO) - 
+Representa a área de negócios
+Não é um comitê 
+Define as funcionalidades do software (Product Backlog)
+Prioriza as funcionalidades de acordo com o valor do negócio
+Garante que o time de desenvolvimento entenda os itens do Backlog no nível necessário
+
+- Scrum Master(SM) - 
+Garante o uso correto do SCRUM
+Não é gerente de projetos
+Age como facilitador
+Auxilia o PO no planejamento e estimativas do backlog
+Auxilia a equipe remover impedimentos
+Treina o time em autogerenciamento e interdisciplinaridade
+
+- Time de desenvolvimento(DEV) - 
+Possui habilidades suficientes para desenvolver, testar, criar e desenhar, ou seja, 
+tudo que for necessário para entregar o software em funcionamento.
+
+
+Cerimônias:
+
+Time Box - Tempo máximo para fazer uma cerimônia ou Sprint
+
+Sprint - Corrida ou arrancada, é o principal evento. Tem uma duração de 30 dias corridos (ou menos). Se divide em: Planejamento da Sprint,
+reuniões diárias, revisão da Sprint, retrospectiva da Sprint.
+
+Planejamento da Sprint - Partcipa o PO, SM e DEVs. Tem um time Box de 8h. O PO explica o que o time precisa fazer e entregar nessa Sprint
+e a equipe tira as dúvidas necessárias nas primeiras 4 horas, nas próximas 4 horas o time de desenvolvimento determina como fazer, definindo
+as atividades.
+
+Planning poker - Utilizando baralho o time determina o esforço/dificuldade de cada tarefa.
+
+Reunioes diárias - Participa o PO, SM e DEVs. Feita de pé como stand-up meeting com um time Box de 15 minutos. O time responde o que fez no
+dia anterior, o que está programado no dia, e se tem algum impedimento. O time pode dividir as tarefas em "para fazer", "fazendo" e "realizadas".
+
+Revisão da Sprint - Time DEV apresenta o que foi desenvolvido durante a Sprint para o PO. Tem uma time Box de 4 horas.
+
+Retrospectiva da Sprint - Reunião da equipe para entender as lições aprendidas e erros cometidos na última Sprint, importante ter transparência.
+Tem uma time box de 3 horas.
+
+
+Alguns conceitos:
+
+Product Backlog - Composto por épicos e estórias. 
+- Épicos: Ajuda a direcionar e dá caminho a ser seguido.
+- Estória: Um épico se divide em estória que detalham esse épico e descreve o que deve acontecer e regras de negócio.
+- Atidades: Pode haver várias atividades por cada história que são criadas pelos DEVs.
+
+Critério de aceite - Uma lista de critério que precisam ser alcançados para que a estória atenda os requisitos do usuário e seja aceita pelo PO.
+Tem objetivo de definir limites para as estórias e ajudar o PO detalhar o que é necessário para entregar valor ao cliente.
+
+Refining - Processo em que o PO pega os itens com mais prioridade e mais refinados para apresentá-los ao time.
+
+
+
