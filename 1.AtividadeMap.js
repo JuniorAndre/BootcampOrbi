@@ -1,7 +1,7 @@
 function getAdmins(map){
 
     for([key,value] of map){
-        if(valuw === 'Admin'){
+        if(value === 'Admin'){
             admins.push(key)
         }
     }
