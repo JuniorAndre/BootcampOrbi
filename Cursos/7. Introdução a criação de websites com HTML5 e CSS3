@@ -1,0 +1,71 @@
+Introdução a criação de websites com HTML5 e CSS3 
+
+HTML5 
+
+- Estrutura com tags <>
+
+- Semântica (elementos):
+<section>
+<aside>
+<header>
+<footer>
+<article>
+<h1> - <h6>
+
+- textos e links
+<p> </p>
+<a> </a>
+<href="link"> </a>
+<a target="_blank> </a> (link para nova página)
+
+- imagens 
+<img src="img/avatar.jpg">
+<img alt="descrição"> (descreve a imagem e aparece quando a página não carrega a imagem)
+
+- listas
+<ul> (lista sem ordem)
+<ol> (lista ordenada)
+<li> (item da lista)
+
+
+CSS3 
+
+- seletores e declarações 
+a,p,h1{
+color:blue;
+36font-size: 14px;
+}
+
+- Classe x ID
+Classe:
+.header{
+padding: 10px;
+}
+
+
+ID: (1 por página)
+#header{
+padding: 15px;
+}
+
+- box model
+margin
+border
+padding
+content
+
+Termos para atributos:
+- padding e margin
+- background
+- border
+- font-family
+- font-size
+- font-style
+- font-weight
+- text-transform
+- text-decoration
+- list-style-type
+- list-style-image
+
+
+
