@@ -1,0 +1,45 @@
+Coleções chaveadas - Map e Set
+
+
+- Map - const myMap = new Map(); -
+
+- Coleção de arrays no formato [chave, valor]
+- Pode ser iterado por for...of
+
+
+- Map x Objeto -
+
+- Podem ter chaves de qualquer tipo
+- Possui a propriedade length
+- São mais fáceis de iterar
+- Utilizado quando o valor das chaves é desconhecido
+- Os valores tem o mesmo tipo
+
+
+- Métodos -
+
+- myMap.set('apple', 'fruit'); - adicionar
+- myMap.get('apple') ]; - pegar/checar um valor
+- myMap.delete('apple'); - deletar um valor
+
+
+- Set - const mySet = new Set(); - 
+
+- Estruturas que guardam valores únicos 
+
+
+- Set x Array -
+
+- Valores únicos 
+- Propriedade size
+- Não possui métodos map, filter, reduce...
+
+
+- Métodos - 
+
+- mySet.add(1); - adicionar
+- mySet.has(1); - checar se tem algum valor
+- mySet.delete(1); - deletar
+
+
+
