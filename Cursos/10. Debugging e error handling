@@ -1,2 +1,60 @@
 Debugging e error handling
 
+
+
+- Tipos de erros -
+
+ECMAScript error
+
+- Erros que ocorrem em tempo de execução
+- Variável não declarada, faltando vírgula, etc..
+- Possui mensagem
+- Nome
+- Linha 
+- Call Stack
+
+DOMException
+
+- Erros relacionados ao DOM (Document Object Model)
+- Erros referentes a uma estrutura de uma página da web
+
+
+
+- Tratar os Erros -
+
+Throw
+
+- Retorna um erro
+
+Return
+
+- Retorna uma string
+
+Try..catch
+
+- O Try verifica se o código possui um erro e é capturada em catch que trata da forma necessária
+
+Finally
+
+- Será executado depois de try..catch de qualquer forma
+
+
+
+- Criando erros -
+
+O objeto error
+
+- O error pode possuir mensagem, nome, e número da linha
+- MeuErro.name
+- MeuErro.stack
+- MeuErro
+
+const MeuErro = new Error('Mensagem Invalida');
+MeuErro.name = 'InvalidMessage';
+throw MeuErro;
+
+
+
+
+
+
