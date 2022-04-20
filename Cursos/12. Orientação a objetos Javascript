@@ -1,0 +1,82 @@
+Orientação a objetos Javascript
+
+
+
+Paradigmas
+
+- Imperativo -
+
+- Foca em como resolver os problemas 
+- Procedural, voltado a objetos e paralelo
+- Descrever como as coisas vão ser chamadas, ordem, etc..
+
+
+
+- Declarativo -
+
+- Foca no que fazer
+- Lógico, funcional e database
+- Acontecem declarando as coisas
+
+
+
+Na orientação voltada a objetos os programas são objetos que possuem suas propriedades. Existem 4 pilares nessa programação:
+
+- Abstração -
+
+- Processo mental que consiste em isolar um aspecto determinado de estados mais complexos, com intuito de simplificar a classificação, avaliação de 
+um todo, ou permiti a comunicação do mesmo.
+- generalizar algo
+
+
+- Herança -
+
+- Objetos filhos que herdam características de objetos pais, que são objetos ascendentes a eles.
+
+
+- Encapsulamento -
+
+- Cada classe tem propriedades e métodos independente do resto do código.
+- A propriedade que pertence àquela classe somente altera naquela classe.
+
+
+- Polimorfismo -
+
+- Objetos podem herdar a mesma classe pai, mas se comportam de forma diferente quando invocamos seus métodos.
+
+
+
+Javascript orientado a objetos 
+
+- Protótipos -
+
+- Todos objetos em Javascript herdam propriedades e métodos de um prototype
+- O objeto Object.prototype está no topo de uma cadeia
+- Na cadeia de protótipos, um objeto procuraria uma característica ou função por herança até chegar em null
+
+
+
+- Classes - 
+
+- Syntatic sugar: uma sintaxe feita para facilitar a escrita
+- Não existem nativamente, utiliza-se objetos que tem protótipos
+- Todas as classes são objetos e a herança se dá por protótipo
+
+
+Class Meal {
+  constructor (food){
+    this.food = food
+  }
+  
+  eat() {
+    return '😁'
+  }
+}
+
+- Construtor: Constroi a classe e atribui parâmetros para valores dentro da classe
+- Get e set: Para ter acesso a propriedades de um objeto, get vai retornar o valor e Set vai determinar outro valor.
+- Super(): Método que manda para função pai, utiliza as propriedades do pai
+- Método: É possível sobrescrever métodos herdados, para que a classe filha tenha diferenciação nos seus métodos
+
+
+
