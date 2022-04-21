@@ -1,2 +1,37 @@
 Primeiros passos para desenvolvimento web
 
+
+Internet - Rede mundial com objetivo de interligar os computadores para fornecer ao usuário acesso a diferentes informações.
+
+Redes - Um conjunto de dois ou mais dispositivos de computação interligados por um sistema de comunicação digital compartilhando informações, 
+serviços e recursos entre si.
+
+Provedor de serviço: Dial-up, ADSL, Fibra óptica, Rádio,  Satélite,  Móvel e P2P.
+
+
+TCP/IP - Protocolo de comunicação entre computadores. usa modelo de camadas.
+4 camadas: Física(placa de rede),  Rede(IP), Transporte (TCP, UDP), Aplicação (FTP, SMTP, HTTP).
+
+TCP - Transmissão Control Protocol
+- Voltado a conexão 
+- Handshake
+- Integridade, ordem dos dados
+- Aplicativo de mensagens de texto
+
+UDP
+- Rápido 
+- Não confiável 
+- Carro do ovo
+- Livestream
+
+IP - Internet Protocol
+
+Portas - Processo que serve de ponto final de comunicações em um sistema operacional. Tem associação com um IP do hospedeiro assim
+como o tipo de protocolo usado para comunicação. 
+
+Modem - Aparelho que modula sinais para computadores e demodula sinais para humanos,
+
+Roteador - Distribui sinal de Internet para um ou mais dispositivos de uma rede.Pode fazer comunicação entre redes mas de uma forma não tão otimizada.
+
+Switch - Distribui Internet para um ou mais dispositivos se uma forma mais inteligente. 
+
