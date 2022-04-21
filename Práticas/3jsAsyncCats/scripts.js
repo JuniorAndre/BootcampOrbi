@@ -8,7 +8,7 @@ const getCats = async() => {
         const json = await data.json();
         return json.webpurl;
     }
-    cathy(e){
+    catch(e){
         console.log(e.message);
     }
 }
