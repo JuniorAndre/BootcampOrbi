@@ -35,3 +35,34 @@ Roteador - Distribui sinal de Internet para um ou mais dispositivos de uma rede.
 
 Switch - Distribui Internet para um ou mais dispositivos se uma forma mais inteligente. 
 
+Segurança Wi-fi 
+Wep - chaves de 64 bits e 128 bitsa
+Wpa - chave trocada periodicamente
+Wpa2 - mais segurança e processamento 
+
+Bluetooth- Conexão ponto a ponto
+
+Browser - Programa que interpreta as linguagens de programação e transforme em algo compreensível por um humano.
+- Sabe identificar  vários linguagens incluindo de marcação e conteúdo multimídia, atualmente existem plug-ins, add-ons que ajudam na navegação. 
+- Trabalham com cache e cookies.
+Existiam muitos sites com páginas estáticas mas hoje em dia muitas são dinâmicas.
+
+Aplicativo - Software utilizado no celular muitas vezes uma espécie de navegador. 
+
+Web-server - Pode ser estático, sendo servidor físico armazenado arquivos, softwares e/ou banco de dados, ou dinâmico que são softwares que estão presentes
+no servidor físico.
+
+Web-service - Interface disponível para fazer requisições e consultas em banco de dados inacessíveis.
+
+Stacks - Conjunto de softwares necessários e suficientes para executar um aplicativo ou programa.
+
+Front-end - Parte da frente, a parte do site, software, aplicativo, web service, interface, UI, UX, HTTP, CSS, jQuery,/JS,/AJAX, PHP, Bootstrap
+
+Back-end - Parte de trás, Servidores, Banco de dados, meio de campo entre interface e banco de dados, regras de negócios, validações, MySQL, Oracle,
+protocolos de comunicação,  PHP, Java, nome.js
+
+Full-Stack - Profissional que sabe trabalhar em todas as camadas das tecnologias de desenvolvimento
+
+
+
+
