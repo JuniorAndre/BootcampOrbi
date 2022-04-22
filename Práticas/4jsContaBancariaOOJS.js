@@ -14,7 +14,7 @@ class contaBancaria{
         this._saldo = valor;
     }
 
-    sacar(valor)){
+    sacar(valor){
         if(valor > this._saldo){
             return "Operação Negada";
         }else{
@@ -24,7 +24,7 @@ class contaBancaria{
         }
     }
 
-    depositar(valor)){
+    depositar(valor){
         this._saldo = this._saldo + valor;
 
         return this._saldo;
@@ -33,7 +33,7 @@ class contaBancaria{
 
 class contaCorrente extends contaBancaria{
     constructor (agencia, numero, cartaoCredito){
-        super(agencia, numero;
+        super(agencia, numero);
         this.tipo = 'corrente';
         this._cartaoCredito = cartaoCredito;
     }
