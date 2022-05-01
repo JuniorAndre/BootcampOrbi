@@ -1,4 +1,62 @@
 Map, Filter e Reduce
 
 
+Map
+
+- Um método para array, que faz um dado ou conjunto de dados passarem por uma modificação dado uma função de mapeamento
+- Não modifica o array original
+- Cria um novo array
+- Realiza as operações em ordem
+
+array.map(callback, thisArg)
+
+callback(item, index, array)
+
+- callback é a função a ser executada em cada elemento
+- thisArg (opcional) é o valor de this dentro da função de callback
+
+
+Map vs forEeach
+
+- Possuem a mesma funcionalidade no sentido de modificação de array
+- Diferença no valor de retorno
+- O forEach não retorna um novo array e precisa de uma var ou const para guardar o valor
+
+array.forEach((item) => item * 2);
+
+
+
+Filter
+
+- Um método que filtra itens de um array e retorna os itens que atendem a uma condição 
+- Cria um novo array
+- Não modifica o array original 
+
+array.filter(callback, thisArg)
+
+callback(item, index, array)
+
+- callback é a função a ser executada em cada elemento
+- thisArg (opcional) é o valor de this dentro da função de callback
+
+const frutas = ['maçã fugi', 'maçã verde', 'laranja', abacaxi'];
+frutas.filter((fruta) => fruta.includes('maçã')); 
+
+
+
+Reduce
+
+- Um método de array que Executa uma função em todos os elementos do array é retorna um valor único
+- Não cria um novo array 
+
+array.reduce(callbackFn, inicialValue)
+
+callback(accumulator, currentValue, index, array)
+
+- callbackFn é a função a ser executada em cada elemento a partir do acumulador
+- InitialValue (opcional) é o valor em que o retorno final irá atuar
+- accumulator acumula todas as chamadas de callbackFn
+- currentValue é o elemento atual que é acessado pela função 
+
+
 
