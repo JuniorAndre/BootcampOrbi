@@ -46,7 +46,7 @@ frutas.filter((fruta) => fruta.includes('maçã'));
 
 Reduce
 
-- Um método de array que Executa uma função em todos os elementos do array é retorna um valor único
+- Um método de array que Executa uma função em todos os elementos do array e retorna um valor único
 - Não cria um novo array 
 
 array.reduce(callbackFn, inicialValue)
