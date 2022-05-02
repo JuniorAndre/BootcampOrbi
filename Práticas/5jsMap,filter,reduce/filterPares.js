@@ -1,6 +1,6 @@
 let array = [5, 8, 17, 10];
 
-function mapComThis(arr){
+function filterNum(arr){
     return arr.filter(function paresNum(num){
         if(num % 2 == 0){
             return num;
@@ -8,4 +8,4 @@ function mapComThis(arr){
     });
 }
 
-console.log(mapComThis(array));
+console.log(filterNum(array));
