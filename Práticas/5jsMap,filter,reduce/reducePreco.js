@@ -1,9 +1,9 @@
 function somaNum(arr) {
 	if (!arr || !arr.length) return;
 
-	const somaArr = arr.reduce((item,,,,,) => item % 2 === 0);
+	const somaArr = arr.reduce((prev, current) => prev + current);
 
-	return filteredArr;
+	return somaArr;
 }
 
-console.log(filtraPares([1, 2, 3, 4]));
+console.log(somaNum([1, 2, 3, 4]));
