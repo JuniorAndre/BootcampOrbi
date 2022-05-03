@@ -2,11 +2,11 @@ const lista = [
     {
         name:'Cereal',
         preco: 25,
-    }
+    },
     {
         name: 'Biscoito',
         preco: 7,
-    }
+    },
     {
         name: 'Café',
         preco: 10,
