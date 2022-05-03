@@ -9,21 +9,21 @@ const lista = [
     }
     {
         name: 'Café',
-        preco:10,
+        preco: 10,
     }
 ]
 
 const saldoDisponivel = 100;
 
 function calculaSaldo(saldoDisponivel, lista){
-    lista.reduce(callback, saldoDisponivel);
+    return lista.reduce(callback, saldoDisponivel);
 
 }
 
 function callback(prev, current){
 
-    return current - prev;
+    return prev - current.preco;
 
 }
 
-console.log(calculaSaldo());
+console.log(calculaSaldo(saldoDisponivel, lista));
