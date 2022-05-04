@@ -1,0 +1,39 @@
+h1{
+    color: black;
+    margin: 0;
+    padding: 30px;
+}
+
+h2{
+    
+}
+
+body{
+    background: #FFFAFA;
+    margin: auto;
+    margin-top: 10px;
+    font-family: verdana;
+    max-width: 800px;
+}
+
+article{
+    background: #FFFAFA;
+    padding: 20px;
+    border: 9px dashed lightblue;
+    border-radius:20px;
+}
+
+.logo1{
+    border-radius:50%;
+    width: 160px;
+    border: 8px solid lightblue;
+}
+
+.cabeçalho{
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer{
+    padding: 20px;
+}
