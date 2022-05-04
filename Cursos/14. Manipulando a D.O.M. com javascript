@@ -3,6 +3,102 @@ Manipulando a D.O.M. com javascript
 
 DOM e BOM
 
+- Document Object Model
+- O DOM HTML é um padrão de como acessar e modificar os elementos HTML de uma página
+
+- Browser Object Model 
+- Tudo que está dentro do objeto window
+
+
+Métodos 
+
+- Pela estrutura HTML: tags, id, classe
+
+document.getElementById('titulo'); 
+-> retorna um elemento
+
+document.getElementsByTagName('li');
+-> retorna um array
+
+document.getElementsByClassName('textos');
+-> retorna um array
+
+documento.querySelectorAll('.primeira-classe .segunda-classe');
+-> retorna um array
+
+
+document.createElement(element)
+-> cria um novo elemento 
+
+document.removeChild(element)
+-> remove um elemento
+
+document.appendChild(element)
+-> adiciona um elemento
+
+document.replaceChild(new, old)
+-> substitui um elemento
+
+
+
+Estilos
+
+
+- Classes -
+
+const meuElemento = document.getElementById("meu-elemento")
+
+meuElemento.classList.add("novo-estilo");
+-> Adiciona a classe "novo-estilo"
+
+meuElemento.classList.remove("classe");
+-> Remove a classe "classe"
+
+meuElemento.classList.toogle("dark-mode");
+-> Adiciona a classe "dark-mode" caso ela não exista, e remove caso exista
+
+<div id="meu-elemento" class=novo-estilo dark-mode">
+
+
+- Acessando diretamente o CSS de um elemento -
+
+document.getElementsByTagName("p").style.color = "blue";
+
+
+
+Eventos
+
+- Ação que usuário faz em uma página de web
+
+Eventos de mouse
+
+- mouseover
+- mouseout
+
+Eventos de clique
+
+- click
+- dbclick
+
+Eventos de atualização 
+
+- change
+- load
+
+Acionar eventos
+
+const botao = document.getElementById("meuBotao");
+botao.addEventListener("click", outraFuncao);
+
+No html 
+
+<h1 onclick="mudaTexto(this)>"Clique aqui!</h1>
+
+<script>
+   function mudaTexto(id){
+      id.innerHTML = "Mudei!";
+   }
+</script>
 
 
 
