@@ -12,4 +12,16 @@ const red = document.querySelector('.red');
 const yellow = document.querySelector('.yellow');
 const blue = document.querySelector('.blue');
 
+let shuffleOrder = () => {
+    let colorOrder = Math.floor(Math.random() * 4);
+    order[order.length] = colorOrder
+    clikedOrder = [];
 
+    for(let i in order){
+        let elementColor = createElement(order[i]);
+    }
+}
+
+ function createElement(array){
+
+ }
