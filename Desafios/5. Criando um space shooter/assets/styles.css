@@ -18,10 +18,16 @@ body{
 }
 
 .hero-shooter{
-    position: reletive;
+    position: relative;
     height: 60px;
     width: 70px;
     left: 20px;
     top: 250px;
+}
+
+.laser{
+    position: relative;
+    height: 30px;
+    width: 40px;
 }
 
