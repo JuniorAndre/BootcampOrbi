@@ -52,7 +52,9 @@ let checkOrder= () => {
 //clique do usuário
 let click = (color) => {
     clickedOrder[clickedOrder.length] = color;
-    createColorElement(color).classList.add('selected');
+    setTimeout(() => {
+        createColorElement(color).classList.add('selected');
+    }, 1000)
 
     setTimeout(() => {
         createColorElement(color).classList.remove('selected');
