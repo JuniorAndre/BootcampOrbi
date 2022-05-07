@@ -18,10 +18,18 @@ let shuffleOrder = () => {
     clikedOrder = [];
 
     for(let i in order){
-        let elementColor = createElement(order[i]);
+        let elementColor = createColorElement(order[i]);
+        lightcolor(elementColor, number(i) + 1);
     }
 }
 
- function createElement(array){
+let lightColor = (element, number) => {
+    time = time * 500;
+    setTimeout(()
+
+}
+
+ function createColorElement(array){
+
 
  }
