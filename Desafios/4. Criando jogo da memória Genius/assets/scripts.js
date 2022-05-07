@@ -1,5 +1,5 @@
 let order = [];
-let clikedOrder = [];
+let clickedOrder = [];
 let score = 0
 
 //0 - verde
@@ -16,11 +16,11 @@ const blue = document.querySelector('.blue');
 let shuffleOrder = () => {
     let colorOrder = Math.floor(Math.random() * 4);
     order[order.length] = colorOrder
-    clikedOrder = [];
+    clickedOrder = [];
 
     for(let i in order){
         let elementColor = createColorElement(order[i]);
-        lightcolor(elementColor, number(i) + 1);
+        lightColor(elementColor, Number(i) + 1);
     }
 }
 
@@ -32,18 +32,18 @@ let lightColor = (element, number) => {
     }, number - 250);
     setTimeout(() => {
         element.classList.remove('selected');
-    })
+    });
 }
 
 //checa se a ordem clicada é igual a ordem aleatória
 let checkOrder= () => {
     for(let i in clickedOrder){
-        if(clikedOrder[i] !== order[i]){
+        if(clickedOrder[i] !== order[i]){
             gameOver();
             break;
         }
     }
-    if(clikedOrder.length == order.length){
+    if(clickedOrder.length == order.length){
         alert(`Pontuação: ${score}\nVocê acertou! Iniciando próximo nível!`);
         nextLevel();
     }
@@ -51,7 +51,7 @@ let checkOrder= () => {
 
 //clique do usuário
 let click = (color) => {
-    clikedOrder[clikedOrder.length] = color;
+    clickedOrder[clickedOrder.length] = color;
     createColorElement(color).classList.add('selected');
 
     setTimeout(() => {
@@ -77,7 +77,7 @@ let createColorElement = (color) => {
  //próximo nível do jogo
 let nextLevel = () => {
     score++;
-    sluffleOrder;
+    shuffleOrder();
 }
 
  //gameover
@@ -97,9 +97,9 @@ let playGame = () => {
     nextLevel();
 }
 
-green.addEventListener('click',click(0));
-red.addEventListener('click',click(1));
-yellow.addEventListener('click',click(2));
-blue.addEventListener('click',click(3));
+green.onclick = () => click(0);
+red.onclick = () => click(1);
+yellow.onclick = () => click(2);
+blue.onclick = () => click(3);
 
 playGame();
