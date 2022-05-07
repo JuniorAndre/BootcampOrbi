@@ -73,7 +73,6 @@ let createColorElement = (color) => {
     }else if(color == 3){
          return blue;
     }
-
 }
 
  //próximo nível do jogo
