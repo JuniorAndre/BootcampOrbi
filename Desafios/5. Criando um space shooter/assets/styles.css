@@ -12,8 +12,16 @@ body{
 
 #main-play-area{
     background-color:black;
-    background-image: url();
+    background-image: url(./img/SkyBackground.png);
     height: 600px;
     width: 600px;
+}
+
+.hero-shooter{
+    position: reletive;
+    height: 60px;
+    width: 70px;
+    left: 20px;
+    top: 250px;
 }
 
