@@ -57,8 +57,8 @@ function createLaserElement(){
     let newLaser = document.createElement('img');
     newLaser.src = 'assets/img/laser.png';
     newLaser.classList.add('laser');
-    newLaser.style.left = `${xPosition}px`
-    newLaser.style.top = `${yPosition - 10}px`
+    newLaser.style.left = `${xPosition}px`;
+    newLaser.style.top = `${yPosition - 10}px`;
     return newLaser;
 }
 
@@ -69,13 +69,12 @@ function moveLaser(laser){
         let aliens = document.querySelectorAll('.alien');
 
         aliens.forEach((alien => {
-            if(checkLaserCollision(laser,alien){
+            if(checkLaserCollision(laser,alien)){
                 alien.src = 'assets/img/ExplosionAlien.png';
                 alien.classList.remove('alien');
                 alien.classList.add('dead-alien');
-            })
+            }
         }))
-
 
         if(xPosition === 340){
             laser.remove();
@@ -88,7 +87,7 @@ function moveLaser(laser){
 //criar aliens aleatórios
 function createAliens(){
     let newAlien = document.createElement('img');
-    let alienSprite = aliensImg[Math.floor(Math.random() * aliensImg.length)] //sorteio
+    let alienSprite = aliensImg[Math.floor(Math.random() * aliensImg.length)]; //sorteio
     newAlien.src = alienSprite;
     newAlien.classList.add('alien');
     newAlien.classList.add('alien-transition');
@@ -144,7 +143,7 @@ function playGame(){
     window.addEventListener('keydown', flyShip);
     alienInterval = setInterval(() => {
         createAliens();
-    }, 2000)
+    }, 2000);
 }
 
 //gameover 
@@ -156,9 +155,9 @@ function gameOver(){
     let lasers = document.querySelectorAll('.laser');
     lasers.forEach((laser) => laser.remove());
     setTimeout(() => {
-        alert('Game over!')
+        alert('Game over!');
         yourShip.style.top = '250px';
         startButtom.style.display = 'block';
         instructinsText.style.display = 'block';
-    })
+    });
 }
