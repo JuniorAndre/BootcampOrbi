@@ -27,10 +27,12 @@ button {
     background: #eee;
 }
 
-.pergunta{
+.caixaPergunta{
     text-align:center;
-    width: 200px;
+    width: 400px;
     height: 80px;
     background-color: #eee;
     color: black;
+    margin-top: 20px;
+    display: inline-block;
 }
