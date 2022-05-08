@@ -26,18 +26,20 @@ function escolherQuadrado(id){
     //aparece caixa, pergunta randômica e input formulário
 
     caixaPergunta.style.opacity = '100%';
-    let randomic = Math.floor(Math.random() * expressoes.length);
+    let randomic = Math.floor(Math.random() * 9);
 
     pergunta.innerHTML = expressoes[randomic];
+}
 
-    btn.add.addEventListener("click", function(e){
-        e.preventDefault();
-        const name = document.querySelector("#name");
-        value = name.value;
-    });
+btnEnviar.addEventListener("click", function(e){
+    e.preventDefault();
+    const name = document.querySelector("#name");
+    value = name.value;
+});
 
     //verificar se o valor do input é igual
-    if(value === resposta[randomic]){
+function mandaResposta(){
+    if(value === respostas[randomic]){
         quadrado.innerHTML = jogador;
         quadrado.style.color = '#000';
     }
