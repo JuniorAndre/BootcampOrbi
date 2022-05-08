@@ -8,6 +8,7 @@ var expressoes = ['3+5×6-10', '2+10÷5-9','7x10x2÷14','10-2-5+26', '90+12÷(2+
     
 var respostas = [23, -5, 10, 29, 92, 50, 163, 110, -100, 96];
 const btnEnviar = document.getElementById("send");
+const value;
 
 mudarJogador('X');
 
@@ -32,7 +33,7 @@ function escolherQuadrado(id){
     btn.add.addEventListener("click", function(e){
         e.preventDefault();
         const name = document.querySelector("#name");
-        var value = name.value;
+        value = name.value;
     });
 
     //verificar se o valor do input é igual
