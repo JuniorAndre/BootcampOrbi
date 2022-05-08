@@ -17,14 +17,6 @@ function escolherQuadrado(id){
         return;
     }
 
-    const questao = document.createElement('div');
-    questao.classList.add('pergunta');
-    questao.style.backgroundColor('black');
-    questao.style.color('white');
-    questao.style.width('150px');
-    questao.style.height('100px');
-    
-
     quadrado.innerHTML = jogador;
     quadrado.style.color = '#000';
 
