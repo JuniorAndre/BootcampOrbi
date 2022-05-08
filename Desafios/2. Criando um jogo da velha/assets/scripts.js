@@ -5,6 +5,7 @@ var quadrados = document.getElementsByClassName('quadrado');
 
 mudarJogador('X');
 
+//O que acontece quando um jogador clica em um quadrado
 function escolherQuadrado(id){
     if(vencedor !== null){
         return;
@@ -15,6 +16,14 @@ function escolherQuadrado(id){
     if(quadrado.innerHTML !== '-'){
         return;
     }
+
+    const questao = document.createElement('div');
+    questao.classList.add('pergunta');
+    questao.style.backgroundColor('black');
+    questao.style.color('white');
+    questao.style.width('150px');
+    questao.style.height('100px');
+    
 
     quadrado.innerHTML = jogador;
     quadrado.style.color = '#000';
@@ -39,6 +48,7 @@ function mudarVencedor(quadrado){
     vencedorSelecionado.innerHTML = vencedor;
 }
 
+//checa se o jogador realizou a sequência 
 function checaVencedor(){
     if(checaSequencia(quadrados[0],quadrados[1],quadrados[2])){
         mudaCorQuadrado(quadrados[0],quadrados[1],quadrados[2]);
@@ -81,12 +91,14 @@ function checaVencedor(){
     }
 }
 
+//muda a cor dos quadrados da sequência ganhadora
 function mudaCorQuadrado(quadrado1,quadrado2,quadrado3){
     quadrado1.style.background = '#0f0';
     quadrado2.style.background = '#0f0';
     quadrado3.style.background = '#0f0';
 }
 
+//checa se três quadrados possuem o mesmo valor
 function checaSequencia(quadrado1,quadrado2,quadrado3){
     let eigual = false;
 
@@ -94,9 +106,9 @@ function checaSequencia(quadrado1,quadrado2,quadrado3){
         eigual = true;
     }
     return eigual;
-
 }
 
+//reinicia jogo
 function reiniciar(){
     vencedor = null;
     vencedorSelecionado.innerHTML = '';
