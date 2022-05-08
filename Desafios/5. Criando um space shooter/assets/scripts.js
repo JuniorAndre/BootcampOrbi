@@ -1,6 +1,6 @@
 const yourShip = document.querySelector(".hero-shooter");
 const playArea = document.querySelector("#main-play-game");
-const aliensImg = ['assets/img/InimigoAlien.png','assets/img/']
+const aliensImg = ['assets/img/InimigoAlien.png','assets/img/InimigoAlien2.png','assets/img/InimigoAlien3.png'];
 
 //mover nave e atirar
 function flyShip(event){
