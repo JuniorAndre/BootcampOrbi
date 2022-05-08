@@ -35,6 +35,7 @@ btnEnviar.addEventListener("click", function(e){
     e.preventDefault();
     const name = document.querySelector("#name");
     value = name.value;
+    mandaResposta();
 });
 
     //verificar se o valor do input é igual
