@@ -2,6 +2,8 @@ var jogador, vencedor = null;
 var jogadorSelecionado = document.getElementById('jogador-selecionado');
 var vencedorSelecionado = document.getElementById('vencedor-selecionado');
 var quadrados = document.getElementsByClassName('quadrado');
+var caixaPergunta = document.querySelector('.caixaPergunta');
+var pergunta = document.getElementById('pergunta');
 
 mudarJogador('X');
 
@@ -16,6 +18,8 @@ function escolherQuadrado(id){
     if(quadrado.innerHTML !== '-'){
         return;
     }
+
+    caixaPergunta.style.opacity = '100%';
 
     quadrado.innerHTML = jogador;
     quadrado.style.color = '#000';
