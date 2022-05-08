@@ -7,10 +7,13 @@ var pergunta = document.getElementById('pergunta');
 var expressoes = ['3+5×6-10', '2+10÷5-9','7x10x2÷14','10-2-5+26', '90+12÷(2+1)-2','150-(50÷5)×(4+6)','70-25+59×2', '30×3+5×4', '50-30×(10-5)','100-20÷(10-5)'];
     
 var respostas = [23, -5, 10, 29, 92, 50, 163, 110, -100, 96];
-const btnEnviar = document.getElementById("send");
 const value;
 
 mudarJogador('X');
+
+let randomic = Math.floor(Math.random() * 9);
+pergunta.innerHTML = expressoes[randomic];
+
 
 //O que acontece quando um jogador clica em um quadrado
 function escolherQuadrado(id){
@@ -23,26 +26,20 @@ function escolherQuadrado(id){
     if(quadrado.innerHTML !== '-'){
         return;
     }
-    //aparece caixa, pergunta randômica e input formulário
 
-    caixaPergunta.style.opacity = '100%';
-    let randomic = Math.floor(Math.random() * 9);
-
-    pergunta.innerHTML = expressoes[randomic];
-}
-
-btnEnviar.addEventListener("click", function(e){
-    e.preventDefault();
-    const name = document.querySelector("#name");
-    value = name.value;
-    mandaResposta();
-});
+    //aparece caixa, pergunta randômica e input formulári
+    quadrado.addEventListener("click", function(e){
+        e.preventDefault();
+        const name = document.querySelector("#name");
+        value = name.value;
+    });
 
     //verificar se o valor do input é igual
-function mandaResposta(){
     if(value === respostas[randomic]){
         quadrado.innerHTML = jogador;
         quadrado.style.color = '#000';
+    }else{
+        
     }
 
     if(jogador === 'X'){
@@ -50,7 +47,6 @@ function mandaResposta(){
     }else{
         jogador = 'X';
     }
-
     mudarJogador(jogador);
     checaVencedor();
 }
