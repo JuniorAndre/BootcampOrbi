@@ -4,20 +4,9 @@ var vencedorSelecionado = document.getElementById('vencedor-selecionado');
 var quadrados = document.getElementsByClassName('quadrado');
 var caixaPergunta = document.querySelector('.caixaPergunta');
 var pergunta = document.getElementById('pergunta');
-var expressoes = {
-    '3+5×6-10': 23,
-    '2+10÷5-9': -5,
-    '7x10x2÷14': 10,
-    '10-2-5+26': 29,
-    '90+12÷(2+1)-2': 92,
-    '150-(50÷5)×(4+6)': 50,
-    '70-25+59×2': 163,
-    '30×3+5×4': 110,
-    '50-30×(10-5)': -100,
-    '100-20÷(10-5)': 96,
-}
+var expressoes = ['3+5×6-10', '2+10÷5-9','7x10x2÷14','10-2-5+26', '90+12÷(2+1)-2','150-(50÷5)×(4+6)','70-25+59×2', '30×3+5×4', '50-30×(10-5)','100-20÷(10-5)'];
     
-var respostas = [];
+var respostas = [23, -5, 10, 29, 92, 50, 163, 110, -100, 96];
 
 mudarJogador('X');
 
@@ -35,7 +24,9 @@ function escolherQuadrado(id){
     //aparece caixa, pergunta randômica e input formulário
 
     caixaPergunta.style.opacity = '100%';
-    pergunta.innerHTML('Math.floor(Math.random(expressoes.key)');
+    let randomic = expressoes[Math.floor(Math.random() * expressoes.length)];
+
+    pergunta.innerHTML = randomic;
 
 
     //verificar se o valor do input é igual
