@@ -18,8 +18,16 @@ function escolherQuadrado(id){
     if(quadrado.innerHTML !== '-'){
         return;
     }
+    //aparece caixa, pergunta randômica e input formulário
+
+
+
+    if()
 
     caixaPergunta.style.opacity = '100%';
+
+
+    //verificar se o valor do input é igual
 
     quadrado.innerHTML = jogador;
     quadrado.style.color = '#000';
